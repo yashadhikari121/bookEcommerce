@@ -1,0 +1,25 @@
+<!-- navbar.component.html -->
+<nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+          <img src="assets\images\favicon-32x32.png" class="">&nbsp;&nbsp;&nbsp;
+        </div>
+        <span class="book-text">Book Market</span>&nbsp;&nbsp;
+        <a routerLink="/" class="nav-link">Home</a>
+      </div>
+      <div class="navbar-links">
+        <!-- <div class="navbar-search">
+          <input type="text" placeholder="Search...">
+          <button class="search-button"><i class="fas fa-search"></i></button>
+        </div> -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/login" class="nav-link">User Login</a>&nbsp;&nbsp;
+        <!-- <a routerLink="/admin-login" class="nav-link">Admin Login</a>&nbsp;&nbsp; -->
+        <a routerLink="/seller-login" class="nav-link">Seller Login</a>&nbsp;&nbsp;
+        <button class="cart-button" (click)="viewCart()"><i class="fas fa-shopping-cart">Cart</i></button>&nbsp;&nbsp;
+        <a routerLink="" class="nav-link">Logout</a>&nbsp;&nbsp;
+      </div>
+    </div>
+  </nav>
+  
